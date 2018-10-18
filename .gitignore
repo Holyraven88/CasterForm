@@ -78,3 +78,8 @@ DerivedDataCache/*
 *.log
 *.ini
 *.ini
+CasterForm/Saved/Autosaves/PackageRestoreData.json
+CasterForm/Saved/AutoScreenshot.png
+CasterForm/Intermediate/CachedAssetRegistry.bin
+CasterForm/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+CasterForm/Saved/Config/Windows/Engine.ini

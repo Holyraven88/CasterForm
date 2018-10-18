@@ -1,4 +1,4 @@
-﻿Log file open, 10/16/18 19:48:10
+﻿Log file open, 10/16/18 20:01:56
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CasterForm
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.286700
+LogStats: Stats thread started at 0.270007
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.122s to configure plugins.
+LogStreaming: Display: Took  0.109s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 660
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 970
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  
-LogInit: Base Directory: E:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/UnrealEngine/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -150,332 +150,1097 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.17-00.48.10:370][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-00.48.10:370][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.17-00.48.10:387][  0]LogHAL: Display: Platform has ~ 16 GB [17115746304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.17-00.48.10:387][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.17-00.48.10:388][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.17-00.48.10:388][  0]LogInit: Computer: ANXIDEL
-[2018.10.17-00.48.10:388][  0]LogInit: User: Anxidel
-[2018.10.17-00.48.10:388][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.17-00.48.10:388][  0]LogInit: High frequency timer resolution =4.101564 MHz
-[2018.10.17-00.48.10:389][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.10.17-00.48.10:389][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.17-00.48.10:389][  0]LogMemory: Process Physical Memory: 99.34 MB used, 99.34 MB peak
-[2018.10.17-00.48.10:389][  0]LogMemory: Process Virtual Memory: 91.06 MB used, 91.06 MB peak
-[2018.10.17-00.48.10:389][  0]LogMemory: Physical Memory: 4849.53 MB used,  11473.32 MB free, 16322.85 MB total
-[2018.10.17-00.48.10:389][  0]LogMemory: Virtual Memory: 4640.09 MB used,  11473.32 MB free, 134217728.00 MB total
-[2018.10.17-00.48.10:410][  0]LogInit: Using OS detected language (en-US).
-[2018.10.17-00.48.10:410][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.17-00.48.10:411][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.17-00.48.10:911][  0]LogStreaming: Display: Took  0.500s to InitEngineTextLocalization.
-[2018.10.17-00.48.10:911][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.17-00.48.10:960][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.17-00.48.10:960][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.17-00.48.11:107][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.17-00.48.11:107][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.17-00.48.11:145][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
-[2018.10.17-00.48.11:145][  0]LogD3D11RHI:       1998/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.10.17-00.48.11:146][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.17-00.48.11:146][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.17-00.48.11:146][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.17-00.48.11:150][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.17-00.48.11:150][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.17-00.48.11:150][  0]LogWindows: EnumDisplayDevices:
-[2018.10.17-00.48.11:150][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
-[2018.10.17-00.48.11:150][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:1)
-[2018.10.17-00.48.11:150][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2018.10.17-00.48.11:150][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2018.10.17-00.48.11:150][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.10.17-00.48.11:150][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
-[2018.10.17-00.48.11:150][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
-[2018.10.17-00.48.11:150][  0]LogD3D11RHI:      Driver Date: 10-10-2018
-[2018.10.17-00.48.11:150][  0]LogRHI: Texture pool is 1398 MB (70% of 1998 MB)
-[2018.10.17-00.48.11:178][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.17-00.48.11:204][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.17-00.48.11:252][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../Casterform/CasterForm/CasterForm/Intermediate/Shaders/WorkingDirectory/876/).
-[2018.10.17-00.48.11:252][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Anxidel/AppData/Local/Temp/UnrealShaderWorkingDir/532FECD74A6079D3451E1ABB9FEE44E6/'.
-[2018.10.17-00.48.11:647][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.17-00.48.11:660][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.17-00.48.11:675][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.17-00.48.11:689][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.17-00.48.11:703][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.17-00.48.11:717][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.17-00.48.11:730][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.17-00.48.11:745][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.17-00.48.11:751][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:830][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-00.48.11:831][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.17-00.48.11:891][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.17-00.48.11:891][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.17-00.48.11:910][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.17-00.48.11:911][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.17-00.48.11:919][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.17-00.48.11:928][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.17-00.48.11:937][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.17-00.48.11:947][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.17-00.48.11:954][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.17-00.48.11:954][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.17-00.48.11:996][  0]LogXGEController: Cleaning working directory: C:/Users/Anxidel/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.17-00.48.11:996][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.17-00.48.11:996][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.17-00.48.11:996][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.17-00.48.12:494][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.17-00.48.12:535][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Anxidel/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.17-00.48.12:535][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Anxidel/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.17-00.48.12:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Casterform/CasterForm/CasterForm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.17-00.48.12:535][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.17-00.48.12:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Casterform/CasterForm/CasterForm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.17-00.48.12:535][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.17-00.48.12:546][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.17-00.48.12:558][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Anxidel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.17-00.48.12:558][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.17-00.48.12:558][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.17-00.48.12:570][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.17-00.48.12:571][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.17-00.48.12:571][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.17-00.48.12:630][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
-[2018.10.17-00.48.12:850][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-00.48.12:881][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.17-00.48.12:883][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.17-00.48.12:883][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.17-00.48.12:883][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.17-00.48.12:883][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.17-00.48.12:954][  0]LogNetVersion: CasterForm 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3851649844)
-[2018.10.17-00.48.13:325][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.093975 seconds
-[2018.10.17-00.48.13:331][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.17-00.48.13:331][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.10.17-00.48.13:331][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.17-00.48.13:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.17-00.48.13:942][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.17-00.48.14:061][  0]SourceControl: Source control is disabled
-[2018.10.17-00.48.14:061][  0]SourceControl: Source control is disabled
-[2018.10.17-00.48.14:062][  0]SourceControl: Source control is disabled
-[2018.10.17-00.48.14:062][  0]SourceControl: Source control is disabled
-[2018.10.17-00.48.14:209][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.17-00.48.14:365][  0]LogOcInput: OculusInput pre-init called
-[2018.10.17-00.48.14:451][  0]LogEngine: Initializing Engine...
-[2018.10.17-00.48.14:452][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.17-00.48.14:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.17-00.48.14:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-00.48.14:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.17-00.48.14:454][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-00.48.14:760][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.17-00.48.14:778][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.17-00.48.14:825][  0]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.17-00.48.14:851][  0]LogInit: FAudioDevice initialized.
-[2018.10.17-00.48.14:851][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.17-00.48.14:937][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Anxidel/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.17-00.48.14:949][  0]LogInit: Texture streaming: Enabled
-[2018.10.17-00.48.14:971][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.17-00.48.14:989][  0]LogInit: Transaction tracking system initialized
-[2018.10.17-00.48.15:016][  0]BlueprintLog: New page: Editor Load
-[2018.10.17-00.48.15:114][  0]LocalizationService: Localization service is disabled
-[2018.10.17-00.48.15:447][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.17-00.48.15:447][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.17-00.48.15:447][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.17-00.48.15:447][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.17-00.48.15:447][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-00.48.15:447][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.17-00.48.15:447][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-00.48.15:576][  0]LogFileCache: Scanning file cache for directory 'E:/Casterform/CasterForm/CasterForm/Content/' took 0.02s
-[2018.10.17-00.48.15:576][  0]SourceControl: Source control is disabled
-[2018.10.17-00.48.15:577][  0]Cmd: MAP LOAD FILE="../../../../Casterform/CasterForm/CasterForm/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.17-00.48.15:577][  0]LightingResults: New page: Lighting Build
-[2018.10.17-00.48.15:579][  0]MapCheck: New page: Map Check
-[2018.10.17-00.48.15:579][  0]LightingResults: New page: Lighting Build
-[2018.10.17-00.48.15:614][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.10.17-00.48.15:614][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.17-00.48.15:643][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.17-00.48.15:694][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.779ms to complete.
-[2018.10.17-00.48.15:695][  0]LogFileHelpers: Loading map 'MainMenu' took 0.118
-[2018.10.17-00.48.15:816][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.48.15:827][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.48.15:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.48.15:848][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.48.15:856][  0]LogCollectionManager: Loaded 0 collections in 0.002329 seconds
-[2018.10.17-00.48.15:912][  0]LogFileCache: Scanning file cache for directory 'E:/Casterform/CasterForm/CasterForm/Saved/Collections/' took 0.01s
-[2018.10.17-00.48.15:912][  0]LogFileCache: Scanning file cache for directory 'E:/Casterform/CasterForm/CasterForm/Content/Developers/Anxidel/Collections/' took 0.01s
-[2018.10.17-00.48.15:912][  0]LogFileCache: Scanning file cache for directory 'E:/Casterform/CasterForm/CasterForm/Content/Collections/' took 0.01s
-[2018.10.17-00.48.15:912][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.17-00.48.15:940][  0]LogContentBrowser: Native class hierarchy populated in 0.0275 seconds. Added 2572 classes and 603 folders.
-[2018.10.17-00.48.15:955][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.10.17-00.48.16:026][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.17-00.48.16:032][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.10.17-00.48.16:046][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.17-00.48.16:048][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.17-00.48.16:053][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.17-00.48.16:111][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.10.17-00.48.16:197][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.17-00.48.16:197][  0]LogLoad: (Engine Initialization) Total time: 7.78 seconds
-[2018.10.17-00.48.16:197][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.17-00.48.16:206][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.17-00.48.16:226][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.17-00.48.16:243][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-00.48.16:261][  1]LogAssetRegistry: Asset discovery search completed in 3.6535 seconds
-[2018.10.17-00.48.16:263][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.17-00.48.16:263][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
-[2018.10.17-00.48.23:072][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.48.23:272][815]LogSlate: Took 0.000663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-00.48.24:319][815]LogAIModule: Creating AISystem for world CasterForm_Map1
-[2018.10.17-00.48.24:332][815]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/CasterForm_Map1.CasterForm_Map1
-[2018.10.17-00.48.24:409][815]Cmd: MAP LOAD FILE="../../../../Casterform/CasterForm/CasterForm/Content/Maps/CasterForm_Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.17-00.48.24:410][815]LightingResults: New page: Lighting Build
-[2018.10.17-00.48.24:410][815]LoadErrors: New page: Loading map: CasterForm_Map1.umap
-[2018.10.17-00.48.24:410][815]MapCheck: New page: Map Check
-[2018.10.17-00.48.24:410][815]LightingResults: New page: Lighting Build
-[2018.10.17-00.48.24:448][815]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.17-00.48.24:492][815]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.17-00.48.24:543][815]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.118ms to complete.
-[2018.10.17-00.48.24:544][815]LogFileHelpers: Loading map 'CasterForm_Map1' took 0.135
-[2018.10.17-00.48.30:275][121]Cmd: POLY SELECT ADJACENT WALLS
-[2018.10.17-00.49.15:448][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.49.42:771][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.49.56:432][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.52.12:206][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.53.04:553][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.53.15:983][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.53.39:580][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.53.39:653][355]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-00.53.40:013][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-00.53.40:026][355]PIE: New page: PIE session: CasterForm_Map1 (Oct 16, 2018, 2:53:40 PM)
-[2018.10.17-00.53.40:026][355]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CasterForm_Map1
-[2018.10.17-00.53.40:051][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024616s)
-[2018.10.17-00.53.40:052][355]LogAIModule: Creating AISystem for world CasterForm_Map1
-[2018.10.17-00.53.40:052][355]LogPlayLevel: PIE: World Init took: (0.001055s)
-[2018.10.17-00.53.40:052][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CasterForm_Map1.CasterForm_Map1 to /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 (0.025846s)
-[2018.10.17-00.53.40:110][355]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.17-00.53.40:125][355]LogInit: FAudioDevice initialized.
-[2018.10.17-00.53.40:431][355]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-00.53.40:437][355]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 up for play (max tick rate 0) at 2018.10.16-19.53.40
-[2018.10.17-00.53.40:437][355]LogWorld: Bringing up level for play took: 0.003520
-[2018.10.17-00.53.40:457][355]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2018.10.17-00.53.40:461][355]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CasterForm_Map1 0.056
-[2018.10.17-00.53.55:353][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.53.55:422][978]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-00.53.55:464][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.53.55:513][979]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2018.10.17-00.53.57:465][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.54.08:568][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.54.08:681][424]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-00.54.08:705][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-00.54.08:705][424]PIE: New page: PIE session: CasterForm_Map1 (Oct 16, 2018, 2:54:08 PM)
-[2018.10.17-00.54.08:705][424]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CasterForm_Map1
-[2018.10.17-00.54.08:714][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008571s)
-[2018.10.17-00.54.08:714][424]LogAIModule: Creating AISystem for world CasterForm_Map1
-[2018.10.17-00.54.08:715][424]LogPlayLevel: PIE: World Init took: (0.000506s)
-[2018.10.17-00.54.08:715][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CasterForm_Map1.CasterForm_Map1 to /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 (0.009164s)
-[2018.10.17-00.54.08:746][424]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.17-00.54.08:756][424]LogInit: FAudioDevice initialized.
-[2018.10.17-00.54.08:789][424]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-00.54.08:792][424]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 up for play (max tick rate 0) at 2018.10.16-19.54.08
-[2018.10.17-00.54.08:792][424]LogWorld: Bringing up level for play took: 0.001908
-[2018.10.17-00.54.08:805][424]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CasterForm_Map1 0.402
-[2018.10.17-00.54.29:956][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.54.30:046][240]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-00.54.30:085][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.54.30:115][241]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2018.10.17-00.54.33:362][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.55.30:948][584]LogSlate: Window 'Color Picker' being destroyed
-[2018.10.17-00.55.36:328][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.55.36:395][764]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-00.55.36:429][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-00.55.36:429][764]PIE: New page: PIE session: CasterForm_Map1 (Oct 16, 2018, 2:55:36 PM)
-[2018.10.17-00.55.36:429][764]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CasterForm_Map1
-[2018.10.17-00.55.36:450][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020909s)
-[2018.10.17-00.55.36:451][764]LogAIModule: Creating AISystem for world CasterForm_Map1
-[2018.10.17-00.55.36:451][764]LogPlayLevel: PIE: World Init took: (0.000916s)
-[2018.10.17-00.55.36:452][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CasterForm_Map1.CasterForm_Map1 to /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 (0.022033s)
-[2018.10.17-00.55.36:515][764]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.17-00.55.36:533][764]LogInit: FAudioDevice initialized.
-[2018.10.17-00.55.36:565][764]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-00.55.36:569][764]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 up for play (max tick rate 0) at 2018.10.16-19.55.36
-[2018.10.17-00.55.36:569][764]LogWorld: Bringing up level for play took: 0.003180
-[2018.10.17-00.55.36:583][764]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CasterForm_Map1 0.18
-[2018.10.17-00.56.00:571][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.56.00:630][714]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-00.56.00:672][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.56.00:724][715]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2018.10.17-00.56.08:885][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.56.10:432][ 44]LogSlate: Took 0.023134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.17-00.56.48:770][378]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-00.56.49:133][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-00.56.49:133][378]PIE: New page: PIE session: CasterForm_Map1 (Oct 16, 2018, 2:56:49 PM)
-[2018.10.17-00.56.49:133][378]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CasterForm_Map1
-[2018.10.17-00.56.49:165][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031265s)
-[2018.10.17-00.56.49:166][378]LogAIModule: Creating AISystem for world CasterForm_Map1
-[2018.10.17-00.56.49:166][378]LogPlayLevel: PIE: World Init took: (0.001523s)
-[2018.10.17-00.56.49:166][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CasterForm_Map1.CasterForm_Map1 to /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 (0.033097s)
-[2018.10.17-00.56.49:249][378]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.17-00.56.49:262][378]LogInit: FAudioDevice initialized.
-[2018.10.17-00.56.49:295][378]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-00.56.49:298][378]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 up for play (max tick rate 0) at 2018.10.16-19.56.49
-[2018.10.17-00.56.49:298][378]LogWorld: Bringing up level for play took: 0.002123
-[2018.10.17-00.56.49:312][378]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CasterForm_Map1 0.908
-[2018.10.17-00.57.26:383][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.57.26:450][692]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-00.57.26:485][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.57.26:534][693]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2018.10.17-00.57.30:800][843]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2018.10.17-00.57.46:331][455]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2018.10.17-00.57.46:901][469]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
-[2018.10.17-00.58.01:696][ 35]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2018.10.17-00.58.10:437][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.58.10:535][406]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-00.58.10:572][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-00.58.10:572][406]PIE: New page: PIE session: CasterForm_Map1 (Oct 16, 2018, 2:58:10 PM)
-[2018.10.17-00.58.10:572][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CasterForm_Map1
-[2018.10.17-00.58.10:588][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015661s)
-[2018.10.17-00.58.10:589][406]LogAIModule: Creating AISystem for world CasterForm_Map1
-[2018.10.17-00.58.10:589][406]LogPlayLevel: PIE: World Init took: (0.001236s)
-[2018.10.17-00.58.10:589][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CasterForm_Map1.CasterForm_Map1 to /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 (0.017094s)
-[2018.10.17-00.58.10:648][406]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.17-00.58.10:665][406]LogInit: FAudioDevice initialized.
-[2018.10.17-00.58.10:697][406]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-00.58.10:701][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 up for play (max tick rate 0) at 2018.10.16-19.58.10
-[2018.10.17-00.58.10:701][406]LogWorld: Bringing up level for play took: 0.004026
-[2018.10.17-00.58.10:716][406]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CasterForm_Map1 0.312
-[2018.10.17-00.58.18:965][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.58.19:025][820]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-00.58.19:066][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-00.58.19:085][821]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2018.10.17-00.58.30:781][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.59.15:119][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-00.59.15:203][144]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-00.59.15:567][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-00.59.15:568][144]PIE: New page: PIE session: CasterForm_Map1 (Oct 16, 2018, 2:59:15 PM)
-[2018.10.17-00.59.15:568][144]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CasterForm_Map1
-[2018.10.17-00.59.15:592][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023755s)
-[2018.10.17-00.59.15:593][144]LogAIModule: Creating AISystem for world CasterForm_Map1
-[2018.10.17-00.59.15:594][144]LogPlayLevel: PIE: World Init took: (0.002036s)
-[2018.10.17-00.59.15:594][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CasterForm_Map1.CasterForm_Map1 to /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 (0.026018s)
-[2018.10.17-00.59.15:672][144]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.10.17-00.59.15:693][144]LogInit: FAudioDevice initialized.
-[2018.10.17-00.59.15:733][144]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.17-00.59.15:739][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CasterForm_Map1.CasterForm_Map1 up for play (max tick rate 0) at 2018.10.16-19.59.15
-[2018.10.17-00.59.15:740][144]LogWorld: Bringing up level for play took: 0.005554
-[2018.10.17-00.59.15:756][144]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CasterForm_Map1 -0.649
-[2018.10.17-01.00.26:015][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-01.00.26:084][153]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.17-01.00.26:115][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.17-01.00.26:143][154]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2018.10.17-01.00.27:237][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-01.00.41:236][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CasterForm_Map1" FILE="../../../../Casterform/CasterForm/CasterForm/Content/Maps/CasterForm_Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-01.00.41:824][666]LogSavePackage: Moving '../../../../Casterform/CasterForm/CasterForm/Saved/CasterForm_Map106894293426FC30B8BB4D2BE8A7853C0.tmp' to '../../../../Casterform/CasterForm/CasterForm/Content/Maps/CasterForm_Map1.umap'
+[2018.10.17-01.01.57:221][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-01.01.57:221][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.17-01.01.57:228][  0]LogHAL: Display: Platform has ~ 32 GB [34296803328 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.17-01.01.57:228][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.17-01.01.57:228][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.17-01.01.57:228][  0]LogInit: Computer: JBAKER-DESKTOP
+[2018.10.17-01.01.57:228][  0]LogInit: User: justi
+[2018.10.17-01.01.57:228][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.17-01.01.57:228][  0]LogInit: High frequency timer resolution =3.984651 MHz
+[2018.10.17-01.01.57:228][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.10.17-01.01.57:229][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.17-01.01.57:229][  0]LogMemory: Process Physical Memory: 99.74 MB used, 99.74 MB peak
+[2018.10.17-01.01.57:229][  0]LogMemory: Process Virtual Memory: 91.01 MB used, 91.01 MB peak
+[2018.10.17-01.01.57:229][  0]LogMemory: Physical Memory: 8066.29 MB used,  24641.69 MB free, 32707.98 MB total
+[2018.10.17-01.01.57:229][  0]LogMemory: Virtual Memory: 4630.61 MB used,  24641.69 MB free, 134217728.00 MB total
+[2018.10.17-01.01.57:244][  0]LogInit: Using OS detected language (en-US).
+[2018.10.17-01.01.57:244][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.17-01.01.57:245][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.17-01.01.57:566][  0]LogStreaming: Display: Took  0.323s to InitEngineTextLocalization.
+[2018.10.17-01.01.57:566][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.17-01.01.57:599][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.17-01.01.57:599][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.17-01.01.57:790][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.17-01.01.57:790][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.17-01.01.57:839][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.10.17-01.01.57:839][  0]LogD3D11RHI:       4043/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.17-01.01.57:841][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.17-01.01.57:841][  0]LogD3D11RHI:       0/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.17-01.01.57:841][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.17-01.01.57:845][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.17-01.01.57:846][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.17-01.01.57:846][  0]LogWindows: EnumDisplayDevices:
+[2018.10.17-01.01.57:846][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.10.17-01.01.57:846][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.17-01.01.57:846][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.17-01.01.57:846][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.17-01.01.57:846][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.17-01.01.57:846][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.10.17-01.01.57:846][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.10.17-01.01.57:847][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.10.17-01.01.57:847][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.10.17-01.01.57:876][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.17-01.01.57:894][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.17-01.01.57:944][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (D:/Unreal Projects/CasterForm/CasterForm/Intermediate/Shaders/WorkingDirectory/13680/).
+[2018.10.17-01.01.57:944][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/justi/AppData/Local/Temp/UnrealShaderWorkingDir/E5DB6AF746BB231216E224A47982AAAC/'.
+[2018.10.17-01.01.58:163][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.17-01.01.58:175][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.17-01.01.58:186][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.17-01.01.58:197][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.17-01.01.58:208][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.17-01.01.58:219][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.17-01.01.58:230][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.17-01.01.58:242][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.17-01.01.58:247][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:310][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-01.01.58:311][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.17-01.01.58:365][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.17-01.01.58:365][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.17-01.01.58:385][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.17-01.01.58:385][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.17-01.01.58:396][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.17-01.01.58:409][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.17-01.01.58:419][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.17-01.01.58:430][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.17-01.01.58:437][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.17-01.01.58:437][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.17-01.01.58:487][  0]LogXGEController: Cleaning working directory: C:/Users/justi/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.17-01.01.58:487][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.17-01.01.58:487][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.17-01.01.58:487][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.17-01.01.59:116][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.17-01.01.59:166][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/justi/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.17-01.01.59:167][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/justi/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.17-01.01.59:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/CasterForm/CasterForm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.17-01.01.59:167][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.17-01.01.59:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/CasterForm/CasterForm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.17-01.01.59:167][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.17-01.01.59:177][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.17-01.01.59:190][  0]LogDerivedDataCache: Using Local data cache path C:/Users/justi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.17-01.01.59:190][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.17-01.01.59:190][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.17-01.01.59:204][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.17-01.01.59:206][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.17-01.01.59:206][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.17-01.01.59:276][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.10.17-01.01.59:567][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-01.01.59:691][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.17-01.01.59:694][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.17-01.01.59:694][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.17-01.01.59:694][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.17-01.01.59:694][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.17-01.01.59:708][  0]LogNetVersion: CasterForm 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3851649844)
+[2018.10.17-01.02.00:140][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.086131 seconds
+[2018.10.17-01.02.00:145][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.17-01.02.00:145][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.17-01.02.00:145][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.17-01.02.00:921][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.17-01.02.00:935][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.17-01.02.01:064][  0]SourceControl: Source control is disabled
+[2018.10.17-01.02.01:064][  0]SourceControl: Source control is disabled
+[2018.10.17-01.02.01:065][  0]SourceControl: Source control is disabled
+[2018.10.17-01.02.01:065][  0]SourceControl: Source control is disabled
+[2018.10.17-01.02.01:230][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.17-01.02.01:315][  0]LogOcInput: OculusInput pre-init called
+[2018.10.17-01.02.01:367][  0]LogEngine: Initializing Engine...
+[2018.10.17-01.02.01:368][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.17-01.02.01:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.17-01.02.01:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-01.02.01:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.17-01.02.01:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-01.02.01:555][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.17-01.02.01:577][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.17-01.02.01:598][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-01.02.01:619][  0]LogInit: FAudioDevice initialized.
+[2018.10.17-01.02.01:619][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.17-01.02.01:680][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/justi/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.17-01.02.01:680][  0]LogInit: Texture streaming: Enabled
+[2018.10.17-01.02.01:697][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.17-01.02.01:710][  0]LogInit: Transaction tracking system initialized
+[2018.10.17-01.02.01:728][  0]BlueprintLog: New page: Editor Load
+[2018.10.17-01.02.01:807][  0]LocalizationService: Localization service is disabled
+[2018.10.17-01.02.01:860][  0]LogLinker: Warning: Can't find file '/Game/TaikuMenus02/Blueprints/Tutorials/TutBP_Droids'
+[2018.10.17-01.02.01:860][  0]LogLinker: Warning: Can't find file '/Game/TaikuMenus02/Blueprints/Tutorials/TutBP_Droids'
+[2018.10.17-01.02.01:860][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TaikuMenus02/Blueprints/Tutorials/TutBP_Droids.TutBP_Droids_C'
+[2018.10.17-01.02.01:860][  0]LogLinker: Warning: Can't find file '/Game/TaikuMenus02/Blueprints/Tutorials/TutBP_TaikuMenus'
+[2018.10.17-01.02.01:860][  0]LogLinker: Warning: Can't find file '/Game/TaikuMenus02/Blueprints/Tutorials/TutBP_TaikuMenus'
+[2018.10.17-01.02.01:860][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TaikuMenus02/Blueprints/Tutorials/TutBP_TaikuMenus.TutBP_TaikuMenus_C'
+[2018.10.17-01.02.02:015][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.17-01.02.02:015][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.17-01.02.02:015][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.17-01.02.02:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.17-01.02.02:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-01.02.02:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.17-01.02.02:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-01.02.02:129][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/CasterForm/CasterForm/Content/' took 0.06s
+[2018.10.17-01.02.02:129][  0]SourceControl: Source control is disabled
+[2018.10.17-01.02.02:129][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/CasterForm/CasterForm/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.17-01.02.02:130][  0]LightingResults: New page: Lighting Build
+[2018.10.17-01.02.02:132][  0]MapCheck: New page: Map Check
+[2018.10.17-01.02.02:132][  0]LightingResults: New page: Lighting Build
+[2018.10.17-01.02.02:154][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.10.17-01.02.02:155][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.17-01.02.02:173][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.17-01.02.02:244][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.603ms to complete.
+[2018.10.17-01.02.02:244][  0]LogFileHelpers: Loading map 'MainMenu' took 0.115
+[2018.10.17-01.02.02:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-01.02.02:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-01.02.02:355][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-01.02.02:361][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-01.02.02:366][  0]LogCollectionManager: Loaded 0 collections in 0.001695 seconds
+[2018.10.17-01.02.02:409][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/CasterForm/CasterForm/Saved/Collections/' took 0.01s
+[2018.10.17-01.02.02:409][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/CasterForm/CasterForm/Content/Developers/justi/Collections/' took 0.01s
+[2018.10.17-01.02.02:410][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/CasterForm/CasterForm/Content/Collections/' took 0.01s
+[2018.10.17-01.02.02:410][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.17-01.02.02:418][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2572 classes and 603 folders.
+[2018.10.17-01.02.02:422][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.17-01.02.02:475][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.17-01.02.02:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.17-01.02.02:487][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.10.17-01.02.02:533][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.17-01.02.02:535][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.17-01.02.02:538][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.17-01.02.02:601][  0]LogRenderer: Reallocating scene render targets to support 1012x544 Format 10 NumSamples 1 (Frame:1).
+[2018.10.17-01.02.02:701][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.17-01.02.02:701][  0]LogLoad: (Engine Initialization) Total time: 7.20 seconds
+[2018.10.17-01.02.02:701][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.17-01.02.02:711][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.17-01.02.02:745][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.17-01.02.02:842][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_E_Engage_020...
+[2018.10.17-01.02.02:842][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.02:892][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 339212 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_E_Engage_020.Gideon_Ability_E_Engage_020.
+[2018.10.17-01.02.02:892][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_E_Engage_010...
+[2018.10.17-01.02.02:892][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.02:929][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 343124 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_E_Engage_010.Gideon_Ability_E_Engage_010.
+[2018.10.17-01.02.02:930][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_E_Engage_030...
+[2018.10.17-01.02.02:930][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.02:970][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 467216 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_E_Engage_030.Gideon_Ability_E_Engage_030.
+[2018.10.17-01.02.02:971][  2]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-01.02.02:981][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_LMB_Engage_030...
+[2018.10.17-01.02.02:982][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:011][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 386924 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_LMB_Engage_030.Gideon_Ability_LMB_Engage_030.
+[2018.10.17-01.02.03:012][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_LMB_Engage_020...
+[2018.10.17-01.02.03:013][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:038][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 320172 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_LMB_Engage_020.Gideon_Ability_LMB_Engage_020.
+[2018.10.17-01.02.03:038][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_LMB_Engage_010...
+[2018.10.17-01.02.03:039][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:064][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 339096 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_LMB_Engage_010.Gideon_Ability_LMB_Engage_010.
+[2018.10.17-01.02.03:078][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_LowMana_030...
+[2018.10.17-01.02.03:078][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:117][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 413428 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_LowMana_030.Gideon_Ability_LowMana_030.
+[2018.10.17-01.02.03:118][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_LowMana_020...
+[2018.10.17-01.02.03:118][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:157][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 431472 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_LowMana_020.Gideon_Ability_LowMana_020.
+[2018.10.17-01.02.03:158][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_LowMana_010...
+[2018.10.17-01.02.03:158][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:191][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 421580 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_LowMana_010.Gideon_Ability_LowMana_010.
+[2018.10.17-01.02.03:192][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_LowMana_040...
+[2018.10.17-01.02.03:193][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:225][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 390268 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_LowMana_040.Gideon_Ability_LowMana_040.
+[2018.10.17-01.02.03:237][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_No_030...
+[2018.10.17-01.02.03:238][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:269][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 420080 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_No_030.Gideon_Ability_No_030.
+[2018.10.17-01.02.03:270][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_No_020...
+[2018.10.17-01.02.03:270][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:300][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 370248 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_No_020.Gideon_Ability_No_020.
+[2018.10.17-01.02.03:301][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_No_010...
+[2018.10.17-01.02.03:301][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:334][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 440528 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_No_010.Gideon_Ability_No_010.
+[2018.10.17-01.02.03:335][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_No_040...
+[2018.10.17-01.02.03:335][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:367][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 439260 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_No_040.Gideon_Ability_No_040.
+[2018.10.17-01.02.03:382][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_OnCooldown_030...
+[2018.10.17-01.02.03:382][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:418][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 461164 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_OnCooldown_030.Gideon_Ability_OnCooldown_030.
+[2018.10.17-01.02.03:418][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_OnCooldown_020...
+[2018.10.17-01.02.03:419][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:450][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 421920 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_OnCooldown_020.Gideon_Ability_OnCooldown_020.
+[2018.10.17-01.02.03:451][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_OnCooldown_010...
+[2018.10.17-01.02.03:452][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:484][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 427096 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_OnCooldown_010.Gideon_Ability_OnCooldown_010.
+[2018.10.17-01.02.03:485][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_OnCooldown_040...
+[2018.10.17-01.02.03:485][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:516][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 421660 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_OnCooldown_040.Gideon_Ability_OnCooldown_040.
+[2018.10.17-01.02.03:529][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Q_Engage_030...
+[2018.10.17-01.02.03:529][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:562][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 372352 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Q_Engage_030.Gideon_Ability_Q_Engage_030.
+[2018.10.17-01.02.03:562][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Q_Engage_020...
+[2018.10.17-01.02.03:563][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:597][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 455504 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Q_Engage_020.Gideon_Ability_Q_Engage_020.
+[2018.10.17-01.02.03:597][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Q_Engage_010...
+[2018.10.17-01.02.03:597][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:635][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 482824 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Q_Engage_010.Gideon_Ability_Q_Engage_010.
+[2018.10.17-01.02.03:646][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_RMB_Engage_030...
+[2018.10.17-01.02.03:646][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:695][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 547648 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_RMB_Engage_030.Gideon_Ability_RMB_Engage_030.
+[2018.10.17-01.02.03:696][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_RMB_Engage_020...
+[2018.10.17-01.02.03:696][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:731][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 470652 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_RMB_Engage_020.Gideon_Ability_RMB_Engage_020.
+[2018.10.17-01.02.03:731][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_RMB_Engage_010...
+[2018.10.17-01.02.03:731][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:770][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 528108 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_RMB_Engage_010.Gideon_Ability_RMB_Engage_010.
+[2018.10.17-01.02.03:780][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_ScoredCrit_010...
+[2018.10.17-01.02.03:780][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:811][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 399820 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_ScoredCrit_010.Gideon_Ability_ScoredCrit_010.
+[2018.10.17-01.02.03:812][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_ScoredCrit_030...
+[2018.10.17-01.02.03:812][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:841][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 396032 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_ScoredCrit_030.Gideon_Ability_ScoredCrit_030.
+[2018.10.17-01.02.03:841][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_ScoredCrit_020...
+[2018.10.17-01.02.03:842][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:879][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 469292 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_ScoredCrit_020.Gideon_Ability_ScoredCrit_020.
+[2018.10.17-01.02.03:887][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Ultimate_Ally_010...
+[2018.10.17-01.02.03:887][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:927][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 533024 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Ultimate_Ally_010.Gideon_Ability_Ultimate_Ally_010.
+[2018.10.17-01.02.03:933][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Ultimate_Enemy_010...
+[2018.10.17-01.02.03:934][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.03:976][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 594648 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Ultimate_Enemy_010.Gideon_Ability_Ultimate_Enemy_010.
+[2018.10.17-01.02.03:988][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Ultimate_Ready_030...
+[2018.10.17-01.02.03:988][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:034][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 626292 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Ultimate_Ready_030.Gideon_Ability_Ultimate_Ready_030.
+[2018.10.17-01.02.04:036][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Ultimate_Ready_020...
+[2018.10.17-01.02.04:037][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:091][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 727268 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Ultimate_Ready_020.Gideon_Ability_Ultimate_Ready_020.
+[2018.10.17-01.02.04:091][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Ultimate_Ready_010...
+[2018.10.17-01.02.04:092][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:132][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 549028 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Ultimate_Ready_010.Gideon_Ability_Ultimate_Ready_010.
+[2018.10.17-01.02.04:139][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_Ultimate_Self_010...
+[2018.10.17-01.02.04:140][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:186][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 514892 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_Ultimate_Self_010.Gideon_Ability_Ultimate_Self_010.
+[2018.10.17-01.02.04:201][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_UsedLastCharge_040...
+[2018.10.17-01.02.04:202][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:233][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 411016 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_UsedLastCharge_040.Gideon_Ability_UsedLastCharge_040.
+[2018.10.17-01.02.04:234][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_UsedLastCharge_030...
+[2018.10.17-01.02.04:234][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:269][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 444280 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_UsedLastCharge_030.Gideon_Ability_UsedLastCharge_030.
+[2018.10.17-01.02.04:270][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_UsedLastCharge_020...
+[2018.10.17-01.02.04:270][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:303][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 426284 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_UsedLastCharge_020.Gideon_Ability_UsedLastCharge_020.
+[2018.10.17-01.02.04:303][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Ability_UsedLastCharge_010...
+[2018.10.17-01.02.04:303][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:339][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 443844 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Ability_UsedLastCharge_010.Gideon_Ability_UsedLastCharge_010.
+[2018.10.17-01.02.04:358][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Catchphrase_040...
+[2018.10.17-01.02.04:360][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:486][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1758112 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Catchphrase_040.Gideon_Catchphrase_040.
+[2018.10.17-01.02.04:487][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Catchphrase_030...
+[2018.10.17-01.02.04:487][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:552][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 877368 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Catchphrase_030.Gideon_Catchphrase_030.
+[2018.10.17-01.02.04:553][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Catchphrase_020...
+[2018.10.17-01.02.04:554][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:684][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1716812 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Catchphrase_020.Gideon_Catchphrase_020.
+[2018.10.17-01.02.04:685][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Catchphrase_010...
+[2018.10.17-01.02.04:685][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:734][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 692720 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Catchphrase_010.Gideon_Catchphrase_010.
+[2018.10.17-01.02.04:735][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Catchphrase_050...
+[2018.10.17-01.02.04:735][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:791][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 778192 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Catchphrase_050.Gideon_Catchphrase_050.
+[2018.10.17-01.02.04:812][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Death_050...
+[2018.10.17-01.02.04:812][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:845][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 426660 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Death_050.Gideon_Death_050.
+[2018.10.17-01.02.04:846][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Death_040...
+[2018.10.17-01.02.04:846][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:875][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 387652 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Death_040.Gideon_Death_040.
+[2018.10.17-01.02.04:876][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Death_030...
+[2018.10.17-01.02.04:876][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:910][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 438124 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Death_030.Gideon_Death_030.
+[2018.10.17-01.02.04:911][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Death_020...
+[2018.10.17-01.02.04:911][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:938][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 328496 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Death_020.Gideon_Death_020.
+[2018.10.17-01.02.04:938][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Death_010...
+[2018.10.17-01.02.04:938][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.04:964][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 319292 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Death_010.Gideon_Death_010.
+[2018.10.17-01.02.04:983][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftLock_030...
+[2018.10.17-01.02.04:983][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:022][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 541028 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftLock_030.Gideon_DraftLock_030.
+[2018.10.17-01.02.05:023][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftLock_020...
+[2018.10.17-01.02.05:023][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:062][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 532288 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftLock_020.Gideon_DraftLock_020.
+[2018.10.17-01.02.05:063][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftLock_010...
+[2018.10.17-01.02.05:063][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:097][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 459272 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftLock_010.Gideon_DraftLock_010.
+[2018.10.17-01.02.05:098][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftLock_050...
+[2018.10.17-01.02.05:099][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:158][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 796836 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftLock_050.Gideon_DraftLock_050.
+[2018.10.17-01.02.05:159][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftLock_040...
+[2018.10.17-01.02.05:159][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:199][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 541092 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftLock_040.Gideon_DraftLock_040.
+[2018.10.17-01.02.05:212][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftSelect_030...
+[2018.10.17-01.02.05:212][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:256][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 589812 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftSelect_030.Gideon_DraftSelect_030.
+[2018.10.17-01.02.05:256][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftSelect_020...
+[2018.10.17-01.02.05:256][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:298][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 567136 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftSelect_020.Gideon_DraftSelect_020.
+[2018.10.17-01.02.05:299][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_DraftSelect_010...
+[2018.10.17-01.02.05:299][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:328][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 400524 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_DraftSelect_010.Gideon_DraftSelect_010.
+[2018.10.17-01.02.05:347][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_E_012...
+[2018.10.17-01.02.05:347][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:379][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 375252 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_E_012.Gideon_Effort_Ability_E_012.
+[2018.10.17-01.02.05:379][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_E_011...
+[2018.10.17-01.02.05:380][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:410][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 388024 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_E_011.Gideon_Effort_Ability_E_011.
+[2018.10.17-01.02.05:411][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_E_010...
+[2018.10.17-01.02.05:411][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:450][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 435276 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_E_010.Gideon_Effort_Ability_E_010.
+[2018.10.17-01.02.05:451][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_E_014...
+[2018.10.17-01.02.05:451][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:485][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 475964 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_E_014.Gideon_Effort_Ability_E_014.
+[2018.10.17-01.02.05:486][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_E_013...
+[2018.10.17-01.02.05:486][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:518][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 412524 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_E_013.Gideon_Effort_Ability_E_013.
+[2018.10.17-01.02.05:535][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Primary_Cast_011...
+[2018.10.17-01.02.05:536][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:560][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 331856 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Primary_Cast_011.Gideon_Effort_Ability_Primary_Cast_011.
+[2018.10.17-01.02.05:561][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Primary_Cast_010...
+[2018.10.17-01.02.05:561][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:587][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 299108 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Primary_Cast_010.Gideon_Effort_Ability_Primary_Cast_010.
+[2018.10.17-01.02.05:588][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Primary_Cast_014...
+[2018.10.17-01.02.05:588][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:621][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 441872 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Primary_Cast_014.Gideon_Effort_Ability_Primary_Cast_014.
+[2018.10.17-01.02.05:622][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Primary_Cast_013...
+[2018.10.17-01.02.05:622][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:656][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 437956 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Primary_Cast_013.Gideon_Effort_Ability_Primary_Cast_013.
+[2018.10.17-01.02.05:657][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Primary_Cast_012...
+[2018.10.17-01.02.05:657][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:693][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 383388 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Primary_Cast_012.Gideon_Effort_Ability_Primary_Cast_012.
+[2018.10.17-01.02.05:713][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Q_Cast_012...
+[2018.10.17-01.02.05:713][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:752][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 426068 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Q_Cast_012.Gideon_Effort_Ability_Q_Cast_012.
+[2018.10.17-01.02.05:753][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Q_Cast_011...
+[2018.10.17-01.02.05:753][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:793][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 501348 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Q_Cast_011.Gideon_Effort_Ability_Q_Cast_011.
+[2018.10.17-01.02.05:794][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Q_Cast_010...
+[2018.10.17-01.02.05:794][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:820][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 350244 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Q_Cast_010.Gideon_Effort_Ability_Q_Cast_010.
+[2018.10.17-01.02.05:821][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Q_Cast_014...
+[2018.10.17-01.02.05:821][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:864][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 522088 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Q_Cast_014.Gideon_Effort_Ability_Q_Cast_014.
+[2018.10.17-01.02.05:865][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Q_Cast_013...
+[2018.10.17-01.02.05:865][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:892][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 341528 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Q_Cast_013.Gideon_Effort_Ability_Q_Cast_013.
+[2018.10.17-01.02.05:912][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_RMB_Cast_013...
+[2018.10.17-01.02.05:912][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:945][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 429748 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_RMB_Cast_013.Gideon_Effort_Ability_RMB_Cast_013.
+[2018.10.17-01.02.05:945][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_RMB_Cast_012...
+[2018.10.17-01.02.05:946][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.05:982][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 497052 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_RMB_Cast_012.Gideon_Effort_Ability_RMB_Cast_012.
+[2018.10.17-01.02.05:983][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_RMB_Cast_011...
+[2018.10.17-01.02.05:983][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:018][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 465100 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_RMB_Cast_011.Gideon_Effort_Ability_RMB_Cast_011.
+[2018.10.17-01.02.06:019][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_RMB_Cast_010...
+[2018.10.17-01.02.06:019][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:054][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 461784 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_RMB_Cast_010.Gideon_Effort_Ability_RMB_Cast_010.
+[2018.10.17-01.02.06:055][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_RMB_Cast_014...
+[2018.10.17-01.02.06:055][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:098][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 549008 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_RMB_Cast_014.Gideon_Effort_Ability_RMB_Cast_014.
+[2018.10.17-01.02.06:119][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Ultimate_014...
+[2018.10.17-01.02.06:119][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:182][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 863280 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Ultimate_014.Gideon_Effort_Ability_Ultimate_014.
+[2018.10.17-01.02.06:183][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Ultimate_013...
+[2018.10.17-01.02.06:183][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:230][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 648000 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Ultimate_013.Gideon_Effort_Ability_Ultimate_013.
+[2018.10.17-01.02.06:230][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Ultimate_012...
+[2018.10.17-01.02.06:230][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:279][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 637736 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Ultimate_012.Gideon_Effort_Ability_Ultimate_012.
+[2018.10.17-01.02.06:280][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Ultimate_011...
+[2018.10.17-01.02.06:280][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:325][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 603528 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Ultimate_011.Gideon_Effort_Ability_Ultimate_011.
+[2018.10.17-01.02.06:326][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Ability_Ultimate_010...
+[2018.10.17-01.02.06:326][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:372][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 502068 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Ability_Ultimate_010.Gideon_Effort_Ability_Ultimate_010.
+[2018.10.17-01.02.06:390][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Attack_013...
+[2018.10.17-01.02.06:391][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:424][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 374148 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Attack_013.Gideon_Effort_Attack_013.
+[2018.10.17-01.02.06:424][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Attack_012...
+[2018.10.17-01.02.06:424][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:451][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 333432 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Attack_012.Gideon_Effort_Attack_012.
+[2018.10.17-01.02.06:451][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Attack_011...
+[2018.10.17-01.02.06:451][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:481][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 396912 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Attack_011.Gideon_Effort_Attack_011.
+[2018.10.17-01.02.06:481][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Attack_014...
+[2018.10.17-01.02.06:481][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:514][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 356396 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Attack_014.Gideon_Effort_Attack_014.
+[2018.10.17-01.02.06:520][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Attack_010...
+[2018.10.17-01.02.06:521][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:553][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 432972 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Attack_010.Gideon_Effort_Attack_010.
+[2018.10.17-01.02.06:572][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Block_014...
+[2018.10.17-01.02.06:572][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:595][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 277428 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Block_014.Gideon_Effort_Block_014.
+[2018.10.17-01.02.06:595][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Block_010...
+[2018.10.17-01.02.06:595][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:617][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 264728 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Block_010.Gideon_Effort_Block_010.
+[2018.10.17-01.02.06:618][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Block_013...
+[2018.10.17-01.02.06:618][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:638][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 258276 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Block_013.Gideon_Effort_Block_013.
+[2018.10.17-01.02.06:638][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Block_012...
+[2018.10.17-01.02.06:638][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:658][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 250648 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Block_012.Gideon_Effort_Block_012.
+[2018.10.17-01.02.06:659][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Block_011...
+[2018.10.17-01.02.06:659][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:681][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 268468 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Block_011.Gideon_Effort_Block_011.
+[2018.10.17-01.02.06:704][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingLowHealth_012...
+[2018.10.17-01.02.06:705][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.06:882][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2438144 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingLowHealth_012.Gideon_Effort_BreathingLowHealth_012.
+[2018.10.17-01.02.06:883][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingLowHealth_011...
+[2018.10.17-01.02.06:885][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.07:051][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2297960 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingLowHealth_011.Gideon_Effort_BreathingLowHealth_011.
+[2018.10.17-01.02.07:052][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingLowHealth_010...
+[2018.10.17-01.02.07:054][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.07:238][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2468008 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingLowHealth_010.Gideon_Effort_BreathingLowHealth_010.
+[2018.10.17-01.02.07:244][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingLowHealth_014...
+[2018.10.17-01.02.07:246][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.07:417][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2379216 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingLowHealth_014.Gideon_Effort_BreathingLowHealth_014.
+[2018.10.17-01.02.07:418][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingLowHealth_013...
+[2018.10.17-01.02.07:420][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.07:576][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2208000 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingLowHealth_013.Gideon_Effort_BreathingLowHealth_013.
+[2018.10.17-01.02.07:597][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingRun_013...
+[2018.10.17-01.02.07:599][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.07:771][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2469924 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingRun_013.Gideon_Effort_BreathingRun_013.
+[2018.10.17-01.02.07:772][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingRun_012...
+[2018.10.17-01.02.07:773][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.07:912][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1987024 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingRun_012.Gideon_Effort_BreathingRun_012.
+[2018.10.17-01.02.07:915][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingRun_011...
+[2018.10.17-01.02.07:917][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:071][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2208000 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingRun_011.Gideon_Effort_BreathingRun_011.
+[2018.10.17-01.02.08:074][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingRun_014...
+[2018.10.17-01.02.08:076][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:233][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2264804 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingRun_014.Gideon_Effort_BreathingRun_014.
+[2018.10.17-01.02.08:233][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_BreathingRun_010...
+[2018.10.17-01.02.08:235][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:371][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1920168 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_BreathingRun_010.Gideon_Effort_BreathingRun_010.
+[2018.10.17-01.02.08:390][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Cheer_012...
+[2018.10.17-01.02.08:390][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:422][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 431952 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Cheer_012.Gideon_Effort_Cheer_012.
+[2018.10.17-01.02.08:422][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Cheer_011...
+[2018.10.17-01.02.08:422][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:463][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 394304 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Cheer_011.Gideon_Effort_Cheer_011.
+[2018.10.17-01.02.08:464][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Cheer_010...
+[2018.10.17-01.02.08:464][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:496][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 431180 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Cheer_010.Gideon_Effort_Cheer_010.
+[2018.10.17-01.02.08:496][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Cheer_014...
+[2018.10.17-01.02.08:497][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:543][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 651976 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Cheer_014.Gideon_Effort_Cheer_014.
+[2018.10.17-01.02.08:544][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Cheer_013...
+[2018.10.17-01.02.08:544][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:589][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 613128 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Cheer_013.Gideon_Effort_Cheer_013.
+[2018.10.17-01.02.08:610][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Death_013...
+[2018.10.17-01.02.08:611][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:670][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 862756 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Death_013.Gideon_Effort_Death_013.
+[2018.10.17-01.02.08:671][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Death_012...
+[2018.10.17-01.02.08:672][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:715][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 645652 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Death_012.Gideon_Effort_Death_012.
+[2018.10.17-01.02.08:716][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Death_011...
+[2018.10.17-01.02.08:716][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:758][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 608684 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Death_011.Gideon_Effort_Death_011.
+[2018.10.17-01.02.08:759][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Death_010...
+[2018.10.17-01.02.08:759][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:821][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 886236 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Death_010.Gideon_Effort_Death_010.
+[2018.10.17-01.02.08:822][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Death_014...
+[2018.10.17-01.02.08:823][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:866][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 612876 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Death_014.Gideon_Effort_Death_014.
+[2018.10.17-01.02.08:886][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Frustration_014...
+[2018.10.17-01.02.08:886][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:923][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 492284 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Frustration_014.Gideon_Effort_Frustration_014.
+[2018.10.17-01.02.08:923][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Frustration_013...
+[2018.10.17-01.02.08:923][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:957][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 475252 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Frustration_013.Gideon_Effort_Frustration_013.
+[2018.10.17-01.02.08:958][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Frustration_012...
+[2018.10.17-01.02.08:958][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.08:991][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 437060 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Frustration_012.Gideon_Effort_Frustration_012.
+[2018.10.17-01.02.08:992][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Frustration_011...
+[2018.10.17-01.02.08:992][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:017][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 332068 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Frustration_011.Gideon_Effort_Frustration_011.
+[2018.10.17-01.02.09:018][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Frustration_010...
+[2018.10.17-01.02.09:018][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:046][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 372484 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Frustration_010.Gideon_Effort_Frustration_010.
+[2018.10.17-01.02.09:065][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLand_014...
+[2018.10.17-01.02.09:065][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:086][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 252056 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLand_014.Gideon_Effort_JumpLand_014.
+[2018.10.17-01.02.09:087][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLand_013...
+[2018.10.17-01.02.09:087][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:114][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 277524 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLand_013.Gideon_Effort_JumpLand_013.
+[2018.10.17-01.02.09:115][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLand_012...
+[2018.10.17-01.02.09:115][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:136][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 260192 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLand_012.Gideon_Effort_JumpLand_012.
+[2018.10.17-01.02.09:137][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLand_011...
+[2018.10.17-01.02.09:137][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:157][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 255664 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLand_011.Gideon_Effort_JumpLand_011.
+[2018.10.17-01.02.09:158][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLand_010...
+[2018.10.17-01.02.09:158][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:183][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 241584 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLand_010.Gideon_Effort_JumpLand_010.
+[2018.10.17-01.02.09:203][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLandHeavy_013...
+[2018.10.17-01.02.09:203][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:230][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 344612 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLandHeavy_013.Gideon_Effort_JumpLandHeavy_013.
+[2018.10.17-01.02.09:231][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLandHeavy_012...
+[2018.10.17-01.02.09:231][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:257][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 329192 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLandHeavy_012.Gideon_Effort_JumpLandHeavy_012.
+[2018.10.17-01.02.09:258][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLandHeavy_011...
+[2018.10.17-01.02.09:258][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:291][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 451752 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLandHeavy_011.Gideon_Effort_JumpLandHeavy_011.
+[2018.10.17-01.02.09:292][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLandHeavy_014...
+[2018.10.17-01.02.09:292][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:330][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 537360 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLandHeavy_014.Gideon_Effort_JumpLandHeavy_014.
+[2018.10.17-01.02.09:331][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_JumpLandHeavy_010...
+[2018.10.17-01.02.09:331][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:360][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 379456 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_JumpLandHeavy_010.Gideon_Effort_JumpLandHeavy_010.
+[2018.10.17-01.02.09:380][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Laugh_014...
+[2018.10.17-01.02.09:381][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:433][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 622772 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_014.Gideon_Effort_Laugh_014.
+[2018.10.17-01.02.09:434][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Laugh_013...
+[2018.10.17-01.02.09:434][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:481][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 495576 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_013.Gideon_Effort_Laugh_013.
+[2018.10.17-01.02.09:481][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Laugh_012...
+[2018.10.17-01.02.09:481][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:520][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 506500 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_012.Gideon_Effort_Laugh_012.
+[2018.10.17-01.02.09:520][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Laugh_011...
+[2018.10.17-01.02.09:521][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:558][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 381536 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_011.Gideon_Effort_Laugh_011.
+[2018.10.17-01.02.09:559][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Laugh_010...
+[2018.10.17-01.02.09:559][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:593][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 432808 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_010.Gideon_Effort_Laugh_010.
+[2018.10.17-01.02.09:613][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Pain_014...
+[2018.10.17-01.02.09:613][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:634][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 262948 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Pain_014.Gideon_Effort_Pain_014.
+[2018.10.17-01.02.09:635][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Pain_013...
+[2018.10.17-01.02.09:636][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:663][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 332452 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Pain_013.Gideon_Effort_Pain_013.
+[2018.10.17-01.02.09:663][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Pain_012...
+[2018.10.17-01.02.09:663][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:686][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 281228 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Pain_012.Gideon_Effort_Pain_012.
+[2018.10.17-01.02.09:687][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Pain_011...
+[2018.10.17-01.02.09:687][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:710][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 309652 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Pain_011.Gideon_Effort_Pain_011.
+[2018.10.17-01.02.09:711][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Pain_010...
+[2018.10.17-01.02.09:711][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:739][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 387416 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Pain_010.Gideon_Effort_Pain_010.
+[2018.10.17-01.02.09:759][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_PainHeavy_014...
+[2018.10.17-01.02.09:759][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:802][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 470616 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_PainHeavy_014.Gideon_Effort_PainHeavy_014.
+[2018.10.17-01.02.09:803][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_PainHeavy_013...
+[2018.10.17-01.02.09:804][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:844][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 551732 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_PainHeavy_013.Gideon_Effort_PainHeavy_013.
+[2018.10.17-01.02.09:845][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_PainHeavy_012...
+[2018.10.17-01.02.09:845][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:876][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 387868 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_PainHeavy_012.Gideon_Effort_PainHeavy_012.
+[2018.10.17-01.02.09:890][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_PainHeavy_011...
+[2018.10.17-01.02.09:890][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:917][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 346608 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_PainHeavy_011.Gideon_Effort_PainHeavy_011.
+[2018.10.17-01.02.09:917][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_PainHeavy_010...
+[2018.10.17-01.02.09:917][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:947][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 378044 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_PainHeavy_010.Gideon_Effort_PainHeavy_010.
+[2018.10.17-01.02.09:969][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Swing_014...
+[2018.10.17-01.02.09:970][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.09:999][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 388864 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Swing_014.Gideon_Effort_Swing_014.
+[2018.10.17-01.02.09:999][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Swing_013...
+[2018.10.17-01.02.10:000][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:024][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 272120 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Swing_013.Gideon_Effort_Swing_013.
+[2018.10.17-01.02.10:024][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Swing_012...
+[2018.10.17-01.02.10:024][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:056][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 311320 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Swing_012.Gideon_Effort_Swing_012.
+[2018.10.17-01.02.10:057][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Swing_011...
+[2018.10.17-01.02.10:057][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:083][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 316768 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Swing_011.Gideon_Effort_Swing_011.
+[2018.10.17-01.02.10:083][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Effort_Swing_010...
+[2018.10.17-01.02.10:084][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:110][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 330624 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Swing_010.Gideon_Effort_Swing_010.
+[2018.10.17-01.02.10:120][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_010...
+[2018.10.17-01.02.10:120][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:145][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 324568 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_010.Gideon_Emote_010.
+[2018.10.17-01.02.10:152][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_020...
+[2018.10.17-01.02.10:153][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:176][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 316448 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_020.Gideon_Emote_020.
+[2018.10.17-01.02.10:183][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_030...
+[2018.10.17-01.02.10:183][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:206][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 306084 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_030.Gideon_Emote_030.
+[2018.10.17-01.02.10:214][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_040...
+[2018.10.17-01.02.10:215][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:248][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 448220 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_040.Gideon_Emote_040.
+[2018.10.17-01.02.10:255][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_050...
+[2018.10.17-01.02.10:255][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:285][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 411180 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_050.Gideon_Emote_050.
+[2018.10.17-01.02.10:293][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_060...
+[2018.10.17-01.02.10:293][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:324][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 392324 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_060.Gideon_Emote_060.
+[2018.10.17-01.02.10:331][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_070...
+[2018.10.17-01.02.10:331][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:371][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 537604 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_070.Gideon_Emote_070.
+[2018.10.17-01.02.10:380][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_080...
+[2018.10.17-01.02.10:380][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:428][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 627344 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_080.Gideon_Emote_080.
+[2018.10.17-01.02.10:435][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_090...
+[2018.10.17-01.02.10:435][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:478][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 600492 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_090.Gideon_Emote_090.
+[2018.10.17-01.02.10:486][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_100...
+[2018.10.17-01.02.10:487][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:539][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 676668 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_100.Gideon_Emote_100.
+[2018.10.17-01.02.10:548][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_110...
+[2018.10.17-01.02.10:548][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:601][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 733360 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_110.Gideon_Emote_110.
+[2018.10.17-01.02.10:612][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_121...
+[2018.10.17-01.02.10:612][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:671][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 869496 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_121.Gideon_Emote_121.
+[2018.10.17-01.02.10:671][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_120...
+[2018.10.17-01.02.10:671][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:731][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 747104 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_120.Gideon_Emote_120.
+[2018.10.17-01.02.10:739][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_130...
+[2018.10.17-01.02.10:739][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:801][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 737528 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_130.Gideon_Emote_130.
+[2018.10.17-01.02.10:815][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_Taunt_030...
+[2018.10.17-01.02.10:815][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:892][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1054536 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_Taunt_030.Gideon_Emote_Taunt_030.
+[2018.10.17-01.02.10:894][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_Taunt_020...
+[2018.10.17-01.02.10:894][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.10:970][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1069628 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_Taunt_020.Gideon_Emote_Taunt_020.
+[2018.10.17-01.02.10:971][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Emote_Taunt_010...
+[2018.10.17-01.02.10:971][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:034][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 870392 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Emote_Taunt_010.Gideon_Emote_Taunt_010.
+[2018.10.17-01.02.11:047][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Critical_030...
+[2018.10.17-01.02.11:048][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:104][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 738620 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Critical_030.Gideon_Health_Critical_030.
+[2018.10.17-01.02.11:110][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Critical_020...
+[2018.10.17-01.02.11:110][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:148][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 481436 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Critical_020.Gideon_Health_Critical_020.
+[2018.10.17-01.02.11:149][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Critical_010...
+[2018.10.17-01.02.11:149][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:181][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 413968 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Critical_010.Gideon_Health_Critical_010.
+[2018.10.17-01.02.11:195][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_CriticalSave_030...
+[2018.10.17-01.02.11:196][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:239][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 600032 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_CriticalSave_030.Gideon_Health_CriticalSave_030.
+[2018.10.17-01.02.11:240][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_CriticalSave_020...
+[2018.10.17-01.02.11:240][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:284][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 603512 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_CriticalSave_020.Gideon_Health_CriticalSave_020.
+[2018.10.17-01.02.11:285][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_CriticalSave_010...
+[2018.10.17-01.02.11:285][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:331][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 599128 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_CriticalSave_010.Gideon_Health_CriticalSave_010.
+[2018.10.17-01.02.11:346][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Healed_030...
+[2018.10.17-01.02.11:346][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:376][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 394192 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Healed_030.Gideon_Health_Healed_030.
+[2018.10.17-01.02.11:377][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Healed_020...
+[2018.10.17-01.02.11:377][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:407][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 423176 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Healed_020.Gideon_Health_Healed_020.
+[2018.10.17-01.02.11:408][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Healed_010...
+[2018.10.17-01.02.11:408][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:436][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 356900 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Healed_010.Gideon_Health_Healed_010.
+[2018.10.17-01.02.11:450][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Low_010...
+[2018.10.17-01.02.11:450][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:478][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 365088 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Low_010.Gideon_Health_Low_010.
+[2018.10.17-01.02.11:478][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Low_030...
+[2018.10.17-01.02.11:478][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:518][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 462096 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Low_030.Gideon_Health_Low_030.
+[2018.10.17-01.02.11:518][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_Low_020...
+[2018.10.17-01.02.11:518][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:553][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 462148 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_Low_020.Gideon_Health_Low_020.
+[2018.10.17-01.02.11:568][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_SufferedCrit_030...
+[2018.10.17-01.02.11:568][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:597][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 384260 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_SufferedCrit_030.Gideon_Health_SufferedCrit_030.
+[2018.10.17-01.02.11:598][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_SufferedCrit_020...
+[2018.10.17-01.02.11:598][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:627][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 379712 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_SufferedCrit_020.Gideon_Health_SufferedCrit_020.
+[2018.10.17-01.02.11:627][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Health_SufferedCrit_010...
+[2018.10.17-01.02.11:627][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:659][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 418148 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Health_SufferedCrit_010.Gideon_Health_SufferedCrit_010.
+[2018.10.17-01.02.11:675][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Boast_030...
+[2018.10.17-01.02.11:675][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:726][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 633584 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Boast_030.Gideon_Intro_Boast_030.
+[2018.10.17-01.02.11:726][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Boast_020...
+[2018.10.17-01.02.11:727][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:802][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1076596 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Boast_020.Gideon_Intro_Boast_020.
+[2018.10.17-01.02.11:803][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Boast_010...
+[2018.10.17-01.02.11:803][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:867][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 891672 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Boast_010.Gideon_Intro_Boast_010.
+[2018.10.17-01.02.11:885][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_BoastResponse_020...
+[2018.10.17-01.02.11:885][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.11:962][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 966884 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_BoastResponse_020.Gideon_Intro_BoastResponse_020.
+[2018.10.17-01.02.11:963][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_BoastResponse_010...
+[2018.10.17-01.02.11:963][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:020][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 783912 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_BoastResponse_010.Gideon_Intro_BoastResponse_010.
+[2018.10.17-01.02.12:021][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_BoastResponse_030...
+[2018.10.17-01.02.12:021][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:091][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 939336 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_BoastResponse_030.Gideon_Intro_BoastResponse_030.
+[2018.10.17-01.02.12:110][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Question_030...
+[2018.10.17-01.02.12:110][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:170][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 770656 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Question_030.Gideon_Intro_Question_030.
+[2018.10.17-01.02.12:174][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Question_020...
+[2018.10.17-01.02.12:174][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:221][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 630616 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Question_020.Gideon_Intro_Question_020.
+[2018.10.17-01.02.12:221][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Question_010...
+[2018.10.17-01.02.12:221][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:277][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 745980 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Question_010.Gideon_Intro_Question_010.
+[2018.10.17-01.02.12:292][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_QuestionResponse_030...
+[2018.10.17-01.02.12:292][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:351][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 811932 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_QuestionResponse_030.Gideon_Intro_QuestionResponse_030.
+[2018.10.17-01.02.12:352][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_QuestionResponse_020...
+[2018.10.17-01.02.12:352][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:416][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 853116 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_QuestionResponse_020.Gideon_Intro_QuestionResponse_020.
+[2018.10.17-01.02.12:416][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_QuestionResponse_010...
+[2018.10.17-01.02.12:417][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:465][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 674100 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_QuestionResponse_010.Gideon_Intro_QuestionResponse_010.
+[2018.10.17-01.02.12:475][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Shinbi_010...
+[2018.10.17-01.02.12:475][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:535][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 820308 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Shinbi_010.Gideon_Intro_Shinbi_010.
+[2018.10.17-01.02.12:551][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Statement_040...
+[2018.10.17-01.02.12:551][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:629][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1063720 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Statement_040.Gideon_Intro_Statement_040.
+[2018.10.17-01.02.12:629][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Statement_030...
+[2018.10.17-01.02.12:630][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:707][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 1069672 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Statement_030.Gideon_Intro_Statement_030.
+[2018.10.17-01.02.12:707][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Statement_020...
+[2018.10.17-01.02.12:708][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:761][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 737068 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Statement_020.Gideon_Intro_Statement_020.
+[2018.10.17-01.02.12:766][  2]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Gideon_Intro_Statement_010...
+[2018.10.17-01.02.12:767][  2]LogTemp: Couldn't find amount to resample to.
+[2018.10.17-01.02.12:823][  2]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 785208 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Intro_Statement_010.Gideon_Intro_Statement_010.
+[2018.10.17-01.02.12:835][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.17-01.02.12:844][  3]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal Projects/CasterForm/CasterForm/Content/' took 10.12s
+[2018.10.17-01.02.12:856][  3]LogAssetRegistry: Asset discovery search completed in 13.6017 seconds
+[2018.10.17-01.02.12:858][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2018.10.17-01.02.12:923][  4]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-01.02.17:517][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-01.02.21:984][ 19]LogSlate: Window 'CasterForm - Unreal Editor' being destroyed
+[2018.10.17-01.02.21:984][ 19]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.17-01.02.21:985][ 19]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.17-01.02.22:122][ 20]Cmd: QUIT_EDITOR
+[2018.10.17-01.02.22:139][ 20]LogExit: Preparing to exit.
+[2018.10.17-01.02.23:075][ 20]LogExit: Editor shut down
+[2018.10.17-01.02.23:076][ 20]LogExit: Transaction tracking system shut down
+[2018.10.17-01.02.23:598][ 20]LogExit: Object subsystem successfully closed.
+[2018.10.17-01.02.23:613][ 20]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.17-01.02.23:616][ 20]LogD3D11RHI: Shutdown
+[2018.10.17-01.02.23:616][ 20]LogD3D11RHI: CleanupD3DDevice
+[2018.10.17-01.02.23:616][ 20]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.17-01.02.23:634][ 20]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.10.17-01.02.23:634][ 20]LogModuleManager: Shutting down and abandoning module WorldBrowser (610)
+[2018.10.17-01.02.23:634][ 20]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.10.17-01.02.23:634][ 20]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.10.17-01.02.23:635][ 20]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.10.17-01.02.23:636][ 20]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.10.17-01.02.23:636][ 20]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.10.17-01.02.23:636][ 20]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.10.17-01.02.23:636][ 20]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.10.17-01.02.23:636][ 20]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.10.17-01.02.23:861][ 20]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.10.17-01.02.23:862][ 20]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.10.17-01.02.23:862][ 20]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.10.17-01.02.23:862][ 20]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.10.17-01.02.23:862][ 20]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.10.17-01.02.23:862][ 20]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.10.17-01.02.23:862][ 20]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.10.17-01.02.23:862][ 20]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.10.17-01.02.23:917][ 20]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.10.17-01.02.24:133][ 20]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.10.17-01.02.24:135][ 20]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.10.17-01.02.24:136][ 20]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.17-01.02.24:137][ 20]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.17-01.02.24:238][ 20]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.17-01.02.24:338][ 20]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.17-01.02.24:339][ 20]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.17-01.02.24:340][ 20]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.17-01.02.24:340][ 20]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.17-01.02.24:340][ 20]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.17-01.02.24:340][ 20]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.17-01.02.24:340][ 20]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.17-01.02.24:340][ 20]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.17-01.02.24:341][ 20]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.17-01.02.24:347][ 20]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.17-01.02.24:348][ 20]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.17-01.02.24:349][ 20]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.17-01.02.24:712][ 20]LogDerivedDataCache: Shutdown
+[2018.10.17-01.02.24:712][ 20]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.17-01.02.24:712][ 20]LogXGEController: Cleaning working directory: C:/Users/justi/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.17-01.02.24:712][ 20]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.17-01.02.24:712][ 20]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.17-01.02.24:713][ 20]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.17-01.02.24:714][ 20]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.17-01.02.24:714][ 20]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.17-01.02.24:719][ 20]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.17-01.02.24:720][ 20]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.17-01.02.24:720][ 20]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.17-01.02.24:747][ 20]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.17-01.02.24:747][ 20]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.17-01.02.24:747][ 20]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC13149EB-4CF1-94D0-029C-958D1B81D7E2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=eae6f97843e6560e707eca9efc575ea9%7Ca4430d5364fc421690d8266ef6f622b7%7Cc3ab0073-bbfb-4bae-bfc2-a146e902775c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.17-01.02.24:769][ 20]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.17-01.02.24:770][ 20]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.17-01.02.24:770][ 20]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.17-01.02.24:771][ 20]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.17-01.02.24:775][ 20]LogExit: Exiting.
+[2018.10.17-01.02.24:779][ 20]Log file closed, 10/16/18 20:02:24
